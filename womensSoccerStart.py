@@ -4,6 +4,7 @@
 #import random to use for number generation
 import random
 
+
 #Have user put in the team name and number of games they played
 homeTeam = input("\nEnter the name of your team (the home team): ")
 numGames = int(input(f"\nEnter the number of teams that {homeTeam} will play (1-10): "))
