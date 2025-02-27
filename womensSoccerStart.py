@@ -4,6 +4,22 @@
 #import random to use for number generation
 import random
 
+# Function to display introduction and get player's name
+def get_player_name():
+    print("Welcome to the Women's Soccer Team Tracker!")
+    print("In this program, you'll record the results of a soccer season.")
+    print("After you have played a number of games, the program will:")
+    print("1. Generate random scores for the home and away teams.")
+    print("2. Determine if the home team wins or loses.")
+    print("3. Display the final record of wins and losses.")
+    print("4. Evaluate the team's performance based on win percentage.")
+    name = input("Please enter your name: ")
+    print(f"Welcome, {name}!")
+    return name
+
+
+# Call the function to get player's name
+player_name = get_player_name()  # Store player's name
 
 #Have user put in the team name and number of games they played
 homeTeam = input("\nEnter the name of your team (the home team): ")
