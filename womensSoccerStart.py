@@ -1,6 +1,19 @@
 # Kimball Berrett
 # This program simulates tracking a women's soccer team's scores and record for the season.
 
+def intro():
+    name = input("Enter your name: ")
+    return name
+userName = intro()
+
+print()
+print("Welcome " + userName)
+print("The rules of the game are simple.")
+print("You will choose your team and choose a team to play against.")
+print("For that game, the score will be simulated.")
+print("Continue to play games until you want to end the season.")
+print("Once you end the season, your record will be displayed.")
+
 #import random to use for number generation
 import random
 
